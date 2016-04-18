@@ -11,6 +11,8 @@
         <module>multi1</module>
         <module>multi2</module>
         <module>multi3</module>
+        <module>my-app</module>
+        <module>second-app</module>
     </modules>
 
     <properties>
