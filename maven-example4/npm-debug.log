@@ -1,0 +1,76 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.7.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'bower' ]
+2 info using npm@3.6.0
+3 info using node@v5.7.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData bower
+8 silly fetchNamedPackageData bower
+9 silly mapToRegistry name bower
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://localhost:8081/artifactory/api/npm/npm-virtual
+12 silly mapToRegistry uri http://localhost:8081/artifactory/api/npm/npm-virtual/bower
+13 verbose request uri http://localhost:8081/artifactory/api/npm/npm-virtual/bower
+14 verbose request always-auth set; sending authorization
+15 info attempt registry request try #1 at 4:54:22 PM
+16 verbose request id 789be2c240edfb34
+17 http request GET http://localhost:8081/artifactory/api/npm/npm-virtual/bower
+18 http 401 http://localhost:8081/artifactory/api/npm/npm-virtual/bower
+19 verbose headers { server: 'Artifactory/development',
+19 verbose headers   'x-artifactory-id': '2dda21df8cd38f29:3f3e6047:153ea9fe59b:-8000',
+19 verbose headers   'www-authenticate': 'Basic realm="Artifactory Realm"',
+19 verbose headers   'content-type': 'application/json;charset=ISO-8859-1',
+19 verbose headers   'content-length': '92',
+19 verbose headers   date: 'Wed, 06 Apr 2016 14:54:22 GMT' }
+20 silly get cb [ 401,
+20 silly get   { server: 'Artifactory/development',
+20 silly get     'x-artifactory-id': '2dda21df8cd38f29:3f3e6047:153ea9fe59b:-8000',
+20 silly get     'www-authenticate': 'Basic realm="Artifactory Realm"',
+20 silly get     'content-type': 'application/json;charset=ISO-8859-1',
+20 silly get     'content-length': '92',
+20 silly get     date: 'Wed, 06 Apr 2016 14:54:22 GMT' } ]
+21 silly fetchPackageMetaData Error: Registry returned 401 for GET on http://localhost:8081/artifactory/api/npm/npm-virtual/bower
+21 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+21 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+21 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+21 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+21 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+21 silly fetchPackageMetaData     at Request.emit (events.js:185:7)
+21 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1035:10)
+21 silly fetchPackageMetaData     at emitOne (events.js:95:20)
+21 silly fetchPackageMetaData     at Request.emit (events.js:182:7)
+21 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:962:12)
+21 silly fetchPackageMetaData  error for bower { [Error: Registry returned 401 for GET on http://localhost:8081/artifactory/api/npm/npm-virtual/bower] pkgid: 'artifactory', statusCode: 401, code: 'E401' }
+22 silly rollbackFailedOptional Starting
+23 silly rollbackFailedOptional Finishing
+24 silly runTopLevelLifecycles Starting
+25 silly runTopLevelLifecycles Finishing
+26 silly install printInstalled
+27 verbose stack Error: Registry returned 401 for GET on http://localhost:8081/artifactory/api/npm/npm-virtual/bower
+27 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+27 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+27 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+27 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+27 verbose stack     at emitTwo (events.js:100:13)
+27 verbose stack     at Request.emit (events.js:185:7)
+27 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1035:10)
+27 verbose stack     at emitOne (events.js:95:20)
+27 verbose stack     at Request.emit (events.js:182:7)
+27 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:962:12)
+28 verbose statusCode 401
+29 verbose pkgid artifactory
+30 verbose cwd /Users/yogevabergel/project-examples/maven-example
+31 error Darwin 15.0.0
+32 error argv "/usr/local/Cellar/node/5.7.1/bin/node" "/usr/local/bin/npm" "install" "-g" "bower"
+33 error node v5.7.1
+34 error npm  v3.6.0
+35 error code E401
+36 error Registry returned 401 for GET on http://localhost:8081/artifactory/api/npm/npm-virtual/bower
+37 error If you need help, you may report this error at:
+37 error     <https://github.com/npm/npm/issues>
+38 verbose exit [ 1, true ]
