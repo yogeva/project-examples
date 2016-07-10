@@ -8,6 +8,26 @@
     <name>Simple Multi Modules Build</name>
 
     <modules>
+        <module>multi1</module>
+        <module>multi2</module>
+        <module>multi4</module>
+        <module>multi3</module>
+        <module>multi5</module>
+        <module>multi6</module>
+        <module>multi7</module>
+        <module>multi8</module>
+        <module>multi9</module>
+        <module>multi10</module>
+        <module>multi11</module>
+        <module>multi12</module>
+        <module>multi13</module>
+        <module>multi14</module>
+        <module>multi15</module>
+        <module>multi16</module>
+        <module>multi17</module>
+        <module>multi18</module>
+        <module>multi19</module>
+        <module>multi20</module>
         <module>my-app</module>
         <module>second-app</module>
     </modules>
