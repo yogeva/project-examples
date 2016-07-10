@@ -8,7 +8,7 @@
     <version>1.0-rc</version>
   </parent>
   <groupId>org.jfrog.test</groupId>
-  <artifactId>yogev123</artifactId>
+  <artifactId>my-app</artifactId>
 
   <packaging>jar</packaging>
   <name>my-app</name>
